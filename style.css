@@ -1,0 +1,24 @@
+body {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 150px;
+}
+
+
+.text-shadow-animation {
+    font-size: 72px;
+    text-shadow: 0 0 10px #f26700, 0 0 20px #f26700, 0 0 30px #f26700, 0 0 40px #f26700, 0 0 50px #f26700, 0 0 60px #f26700, 0 0 70px #f26700, 0 0 80px #f26700, 0 0 90px #f26700, 0 0 100px #f26700;
+    animation: text-shadow-animation 3s ease-in-out infinite;
+  }
+  
+  @keyframes text-shadow-animation {
+    0% {
+      text-shadow: 0 0 10px #f26700, 0 0 20px #f26700, 0 0 30px #f26700, 0 0 40px #f26700, 0 0 50px #f26700, 0 0 60px #f26700, 0 0 70px #f26700, 0 0 80px #f26700, 0 0 90px #f26700, 0 0 100px #f26700;
+    }
+    100% {
+      text-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00, 0 0 30px #00ff00, 0 0 40px #00ff00, 0 0 50px #00ff00, 0 0 60px #00ff00, 0 0 70px #00ff00, 0 0 80px #00ff00, 0 0 90px #00ff00, 0 0 100px #00ff00;
+    }
+  }
+  
